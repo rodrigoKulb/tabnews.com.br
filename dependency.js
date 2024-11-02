@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 const { exec } = require('child_process');
 
-const versionDockerNeeded = 30;
+const versionDockerNeeded = 20;
 const versionComposeNeeded = 1.29;
 
 exec('docker -v', (err, stdout, stderr) => {
